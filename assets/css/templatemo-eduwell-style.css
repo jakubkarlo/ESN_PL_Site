@@ -153,8 +153,7 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: rgb(17 17 17);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -246,9 +245,7 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
-  height: 80px!important;
+  background: #303693 !important;
   position: fixed!important;
   top: 0!important;
   left: 0;
@@ -257,7 +254,6 @@ header
 }
 
 .header-area {
-  background-image: url(../images/header-bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -290,14 +286,6 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-}
-
-.background-header .main-nav .logo {
-  line-height: 75px;
-}
-
-.background-header .nav {
-  margin-top: 20px !important;
 }
 
 .header-area .main-nav .nav {
@@ -671,6 +659,7 @@ banner
 */
 
 section.main-banner {
+  background:url(https://esn-germany.de/landing2.b0a3c735fd24ce8c.png);
   margin-top: 0px;
 }
 
@@ -687,16 +676,6 @@ section.main-banner {
 .main-banner .right-image img {
   position: relative;
   z-index: 2;
-}
-
-.main-banner .right-image::after {
-  position: absolute;
-  background-image: url(../images/banner-right-dec.png);
-  width: 378px;
-  height: 378px;
-  content: '';
-  right: -25%;
-  z-index: 1;
 }
 
 .main-banner .header-text::after {
@@ -732,7 +711,7 @@ section.main-banner {
 
 .main-banner .header-text h2 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #ffffff;
 }
 
 .main-banner .main-button-gradient {
