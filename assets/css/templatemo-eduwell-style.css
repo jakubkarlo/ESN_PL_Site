@@ -659,7 +659,8 @@ banner
 */
 
 section.main-banner {
-  background:url(https://esn-germany.de/landing2.b0a3c735fd24ce8c.png);
+  background-image:url(https://esn-germany.de/landing2.b0a3c735fd24ce8c.png);
+  background-attachment: fixed;
   margin-top: 0px;
 }
 
