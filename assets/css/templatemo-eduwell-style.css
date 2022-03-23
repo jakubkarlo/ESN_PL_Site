@@ -665,11 +665,13 @@ section.main-banner {
 }
 
 .main-banner {
-  padding-top: 180px;
+  padding-top: 140px;
 }
 
 .main-banner .right-image {
-  margin-left: 120px;
+  margin-left: 20px;
+  margin-right:100px;
+  margin-bottom:30px;
   position: relative;
   z-index: 2;
 }
