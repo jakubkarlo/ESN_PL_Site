@@ -125,12 +125,12 @@ body {
 }
 
 ::selection {
-  background: #dc8cdb;
+  background: #303693;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #dc8cdb;
+  background: #303693;
   color: #fff;
 }
 
@@ -170,7 +170,7 @@ body {
 
 .white-button a {
   font-size: 13px;
-  color: #dc8cdb;
+  color: #303693;
   background-color: #fff;
   padding: 12px 30px;
   display: inline-block;
@@ -187,7 +187,7 @@ body {
 .text-button a {
   font-size: 14px;
   font-weight: 500;
-  color: #dc8cdb;
+  color: #303693;
   text-decoration: underline !important;
   transition: all .3s;
 }
@@ -231,7 +231,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #303693;
 }
 
 .section-heading p {
@@ -393,7 +393,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #dc8cdb!important;
+  color: #303693!important;
   padding-left: 25px;
 }
 
@@ -533,7 +533,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #dc8cdb;
+  color: #303693;
 }
 
 @media (max-width: 1200px) {
@@ -552,7 +552,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb!important;
+    color: #303693!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -610,7 +610,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #dc8cdb!important;
+    color: #303693!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -681,16 +681,6 @@ section.main-banner {
   z-index: 2;
 }
 
-.main-banner .header-text::after {
-  position: absolute;
-  background-image: url(../images/banner-left-dec.png);
-  width: 214px;
-  height: 429px;
-  content: '';
-  left: 0;
-  bottom: -240px;
-  z-index: 1;
-}
 
 .main-banner .header-text h6 {
   position: relative;
@@ -770,7 +760,7 @@ services
 }
 
 .services .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #303693;
 }
 
 
@@ -830,7 +820,7 @@ section.our-courses .naccs .menu div {
 }
 
 section.our-courses .naccs .menu div.active {
-  color: #dc8cdb;
+  color: #303693;
   border: 3px solid rgba(219,138,222,1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
 }
@@ -947,6 +937,7 @@ cta
 
 section.simple-cta {
   background-image: url(../images/cta-bg.png);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1039,7 +1030,7 @@ section.testimonials:after {
 .testimonials .item span {
   font-size: 13px;
   font-weight: 700;
-  color: #dc8cdb;
+  color: #303693;
 }
 
 .testimonials .item img {
@@ -1064,7 +1055,7 @@ section.testimonials:after {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #303693;
 }
 
 
@@ -1082,17 +1073,6 @@ section.contact-us {
   background-size: cover;
   padding: 0px;
   position: relative;
-}
-
-section.contact-us:after {
-  position: absolute;
-  content: '';
-  background-image: url(../images/footer-left-dec.png);
-  left: 0px;
-  top: 60px;
-  width: 267px;
-  height: 396px;
-  z-index: 1;
 }
 
 section.contact-us .contact-info {
@@ -1127,7 +1107,7 @@ section.contact-us .contact-info h4 {
 
 section.contact-us .contact-info span {
   font-size: 15px;
-  color: #dc8cdb;
+  color: #303693;
   font-weight: 700;
 }
 
@@ -1182,8 +1162,7 @@ section.contact-us #contact button {
   float: right;
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  background: #303693;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1216,13 +1195,13 @@ section.contact-us ul.social-icons li a {
   text-align: center;
   line-height: 44px;
   background-color: #fff;
-  color: #dc8cdb;
+  color: #303693;
   border-radius: 50%;
   transition: all .5s;
 }
 
 section.contact-us ul.social-icons li a:hover {
-  background-color: #dc8cdb;
+  background-color: #303693;
   color: #fff;
 }
 
@@ -1383,13 +1362,13 @@ section.our-team .naccs .menu div h4 {
 section.our-team .naccs .menu div span {
   font-size: 12px;
   text-transform: uppercase;
-  color: #dc8cdb;
+  color: #303693;
   font-weight: 700;
   display: block;
 }
 
 section.our-team .naccs .menu div.active h4 {
-  color: #dc8cdb;
+  color: #303693;
 }
 
 section.our-team ul.nacc {
@@ -1455,7 +1434,7 @@ section.our-team ul.nacc li .left-content span a {
 }
 
 section.our-team ul.nacc li .left-content span a:hover {
-  color: #dc8cdb;
+  color: #303693;
 }
 
 section.our-team ul.nacc li .left-content .last-span a {
@@ -1681,7 +1660,7 @@ section.more-info .count-area-content .count-digit {
   height: 80px;
   line-height: 80px;
   font-size: 28px;
-  color: #dc8cdb;
+  color: #303693;
   font-weight: 900;
   margin-bottom: -40px;
   position: relative;
@@ -1879,7 +1858,7 @@ body {
     margin: 0px 5px;
   }
   section.our-team .naccs .menu div.active img {
-    border: 3px solid #dc8cdb;
+    border: 3px solid #303693;
   }
   section.our-team .naccs .menu div h4,
   section.our-team .naccs .menu div span {
