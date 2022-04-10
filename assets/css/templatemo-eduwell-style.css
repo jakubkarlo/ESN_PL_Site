@@ -952,13 +952,23 @@ section.simple-cta .left-image {
 }
 
 section.simple-cta h6 {
-  font-size: 17px;
+  margin-top:30px;
+  font-size: 3em;
   color: #fff;
+  font-family: 'Freestyle script';
+}
+
+section.simple-cta h5 {
+  font-size: 7em;
+  color: #fff;
+  font-family: 'Freestyle script';
+  margin-bottom:20px;
 }
 
 section.simple-cta h4 {
-  font-size: 62px;
-  font-weight: 900;
+  font-size: 10em;
+  font-family: 'Freestyle script';
+  font-weight: 100;
   color: #fff;
   line-height: 74px;
   margin-top: 20px;
@@ -968,9 +978,27 @@ section.simple-cta p {
   color: #fff;
   margin-top: 30px;
   margin-bottom: 40px;
+
 }
 
+section.simple-cta .white-button a {
+  border: 3px solid white;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ffffff00;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+  margin-right:20px;
+}
 
+section.simple-cta .white-button a:hover {
+  background-color:#303693;
+  opacity: 0.8
+}
 /* 
 ---------------------------------------------
 testimonials
