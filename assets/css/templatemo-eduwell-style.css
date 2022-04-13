@@ -238,6 +238,24 @@ section {
   margin-top: 30px;
 }
 
+.black-button a {
+  border: 3px solid #000000;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0);
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+
+.black-button a:hover {
+  background-color:#303693;
+  opacity: 0.8
+}
+
 
 /* 
 ---------------------------------------------
@@ -660,6 +678,7 @@ banner
 
 section.main-banner {
   background-image:url(../images/banner_bg.png);
+  background-size:cover;
   background-attachment: fixed;
   margin-top: 0px;
 }
@@ -761,6 +780,10 @@ services
 
 .services .owl-dots .active {
   background-color: #303693;
+}
+
+section.services .black-button a{
+  margin-top:20px;
 }
 
 
@@ -940,7 +963,6 @@ section.simple-cta {
   background-blend-mode: overlay;
   background-image: url(../images/test-bg.jpg);
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 100%;
@@ -1566,7 +1588,7 @@ our services page
 
 section.featured-product {
 	  background-attachment:fixed;
-	  background-repeat:no-repeat;
+	  background-size:cover;
 	  background-image:url(../images/banner_bg.png);
       position: relative;
       padding-bottom:100px;
@@ -1627,6 +1649,10 @@ section.featured-product .info-item h4 {
 
 section.featured-product .product-image {
   margin: 0px 60px;
+}
+
+section.featured-product .black-button a{
+  margin-bottom: 20px;
 }
 
 /*
