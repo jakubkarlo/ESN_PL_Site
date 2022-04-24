@@ -760,7 +760,7 @@ services
 }
 
 .services .item .icon {
-  max-width: 75px;
+  max-width: 200px;
   margin: 0 auto;
   min-height: 80px;
   line-height: 80px;
@@ -791,10 +791,14 @@ services
   background-color: #303693;
 }
 
-section.services .black-button a{
-  margin-top:20px;
+section.services a {
+  color:#303693;
 }
 
+section.services .black-button a{
+  margin-top:20px;
+  color:#ffffff;
+}
 
 /*
 ---------------------------------------------
