@@ -4,10 +4,9 @@
 
 	$(window).scroll(function() {
 	  var scroll = $(window).scrollTop();
-	  var box = $('.header-text').height();
-	  var header = $('header').height();
+	  var box = $('.main-banner').height();
 
-	  if (scroll >= box - header) {
+	  if (scroll >= box) {
 	    $("header").addClass("background-header");
 	  } else {
 	    $("header").removeClass("background-header");
