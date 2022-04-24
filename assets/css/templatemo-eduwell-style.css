@@ -756,7 +756,7 @@ services
 }
 
 .services .item:hover {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.20);
 }
 
 .services .item .icon {
@@ -1699,13 +1699,13 @@ section.more-info .count-area-content {
 
 section.more-info .count-area-content .count-digit {
   background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.20);
   border-radius: 15px;
   text-align: center;
   display: inline-block;
   margin-left: 50%;
-  transform: translateX(-40px);
-  width: 80px;
+  transform: translateX(-50px);
+  width: 100px;
   height: 80px;
   line-height: 80px;
   font-size: 28px;
@@ -1718,7 +1718,7 @@ section.more-info .count-area-content .count-digit {
 
 section.more-info .count-area-content .count-title {
   background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.20);
   border-radius: 15px;
   text-align: center;
   font-size: 20px;
@@ -1916,4 +1916,8 @@ body {
   section.more-info .count-area-content .count-title {
     font-size: 22px;
   }
+}
+
+.owl-item{
+
 }
