@@ -263,7 +263,6 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background-size: contain;
   background: url("../images/header-sticky-bg.png") no-repeat;
   position: fixed!important;
   top: 0!important;
@@ -273,7 +272,7 @@ header
 }
 
 .header-area {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
