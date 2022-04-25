@@ -1692,7 +1692,7 @@ section.featured-product .left-info .esncard-item-inner {
   position: relative;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  width:300px;
+  width:100%;
   height:200px;
 
 }
@@ -1710,12 +1710,35 @@ section.featured-product .left-info .esncard-item-inner {
 }
 
 .esncard-item-front{
-  background-color:#1ba7d9;
+  background-color:#ffffff;
   border-radius: 15px;
+}
+
+.esncard-item-front h4{
+  line-height:200px;
+  margin:0 !important;
 }
 
 .esncard-item-back{
   transform: rotateY(180deg);
+}
+
+.strip-right{
+  background-color: #1ba7d9;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+}
+
+.strip-left{
+  background-color: #1ba7d9;
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 15px 0 0 15px;
 }
 
 /*
