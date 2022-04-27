@@ -979,6 +979,10 @@ section.simple-cta {
   background-size: cover;
   width: 100%;
   padding: 180px 0px 180px 0px;
+  -webkit-transition: background 200ms ease-in-out 300ms;
+  -moz-transition: background 200ms ease-in-out 300ms;
+  -o-transition: background 200ms ease-in-out 300ms;
+  transition: background 200ms ease-in-out 300ms
 }
 
 section.simple-cta .left-image {
@@ -1033,6 +1037,7 @@ section.simple-cta .white-button a:hover {
   background-color:#303693;
   opacity: 0.8
 }
+
 /* 
 ---------------------------------------------
 testimonials
