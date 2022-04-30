@@ -29,7 +29,8 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
-/* 
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+/*
 ---------------------------------------------
 reset
 --------------------------------------------- 
@@ -993,19 +994,19 @@ section.simple-cta h6 {
   margin-top:30px;
   font-size: 3em;
   color: #fff;
-  font-family: 'Freestyle script';
+  font-family: 'Kalam';
 }
 
 section.simple-cta h5 {
   font-size: 7em;
   color: #fff;
-  font-family: 'Freestyle script';
+  font-family: 'Kalam';
   margin-bottom:20px;
 }
 
 section.simple-cta h4 {
   font-size: 10em;
-  font-family: 'Freestyle script';
+  font-family: 'Kalam';
   font-weight: 100;
   color: #fff;
   line-height: 74px;
