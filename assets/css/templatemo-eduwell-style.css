@@ -1136,7 +1136,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/footer-bg.png);
+  background-image: url(../images/footer-bg.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1822,6 +1822,22 @@ section.more-info .count-area-content .count-title {
   z-index: 1;
 }
 
+/*
+---------------------------------------------
+svg sections map
+---------------------------------------------
+*/
+.contact-us svg circle:hover{
+  r:10;
+}
+
+#sectionNamePopup {
+  width: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 6px;
+  display: none;
+}
 
 /* 
 ---------------------------------------------
@@ -2009,8 +2025,4 @@ body {
   section.more-info .count-area-content .count-title {
     font-size: 22px;
   }
-}
-
-.owl-item{
-
 }
